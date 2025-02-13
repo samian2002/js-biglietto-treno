@@ -13,3 +13,4 @@ if (etaUtente < 18) {  // sconto per minorenni
     costoBiglietto -= costoBiglietto * scontoAnziani; // costoBiglietto = costoBiglietto - (costoBiglietto * scontoAnziani)
 }
 // stampo il risultato
+console.log("Il costo del biglietto è: €" + costoBiglietto.toFixed(2));
